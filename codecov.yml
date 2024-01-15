@@ -22,13 +22,13 @@ coverage:
   status:
     project:
       default:
-        target: 45%
+        target: 60%
     patch: off
 
 comment:
   layout: "reach, diff, flags, files"
   behavior: default
-  require_changes: false
+  require_changes: true
   show_carryforward_flags: true
 
 ignore:
